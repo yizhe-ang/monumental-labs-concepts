@@ -36,7 +36,7 @@ const Experience = () => {
   const imageTexture = useTexture("images/mount.jpg");
   const depthTexture = useTexture("images/mount-map.jpg");
 
-  const model = useGLTF("/models/sculpture_2.glb");
+  const model = useGLTF("models/sculpture_2.glb");
 
   const explodeProgress = useRef();
   const sculpture1Progress = useRef();
