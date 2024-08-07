@@ -15,7 +15,7 @@ const nextConfig = {
     }
     return config;
   },
-  basePath: '/monumental-labs-concepts'
+  // basePath: '/monumental-labs-concepts'
 };
 
 export default nextConfig;
